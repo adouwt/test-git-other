@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "pushother": "cd dist/ && git remote add origin git@github.com:adouwt/test-git-other.git && git add . && git commit -m 'push dist files' & git pull && git push -u origin master -f"
+      "push": "cd dist/ && git remote add origin git@github.com:adouwt/test-git-other.git && git add . && git commit -m 'push dist files' & git pull && git push -u origin master -f"
     },
     "author": "",
     "license": "ISC",

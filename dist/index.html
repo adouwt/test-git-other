@@ -2,3 +2,5 @@ git remote add otherGit git@github.com:adouwt/test-git-other.git
 git add .
 git commit -m "add dist files"
 git push otherGit master -f
+
+cd dist/ && git remote set-url origin git@github.com:adouwt/test-git-other.git && git add . && git commit -m 'push dist files' && git pull && git push origin master -f
